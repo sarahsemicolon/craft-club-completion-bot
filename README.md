@@ -1,0 +1,1 @@
+A Typescript bot for Discord that will give the latest completer of a craft project a special role.

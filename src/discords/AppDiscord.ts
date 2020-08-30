@@ -32,5 +32,6 @@ export abstract class AppDiscord {
 
   assignRole(member: GuildMember) {
     member.roles.add(completionRoleID);
+    console.log(`Adding completion role to ${member.displayName}`);
   }
 }
